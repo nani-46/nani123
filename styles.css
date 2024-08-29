@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #f4f4f4; /* Soft background color for a clean look */
 }
 
 header {
-    background-color: #333;
+    background-color: #003366; /* Dark Blue for professionalism and trust */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -26,10 +27,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ff6600; /* Orange for enthusiasm on hover */
 }
 
 main {
@@ -49,6 +51,7 @@ main {
     overflow: hidden;
     text-align: center;
     width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bike img {
@@ -58,10 +61,15 @@ main {
 
 .bike h3 {
     margin: 10px 0;
+    color: #003366; /* Dark Blue for consistency with header */
+}
+
+.bike p {
+    color: #555; /* Slightly lighter color for readability */
 }
 
 footer {
-    background-color: #333;
+    background-color: #003366; /* Dark Blue for consistency */
     color: #fff;
     text-align: center;
     padding: 10px;
